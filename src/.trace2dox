@@ -1,0 +1,20 @@
+# General
+
+hscale: "2"
+#width: "800"
+#arcgradient: "5"
+
+traceid: ::MSC::
+#namespace: MSG_
+#filters:
+#logic: AND
+
+# Entities
+
+A: label="PA", textcolour="blue", arclinecolour="blue"
+
+# Messages
+A->B: label="Obtain resource", linecolour="red", textcolour="red"
+B->A: label="Give resource", linecolour="red", textcolour="red"
+D=>A: linecoulour="green"
+B->C: label=hoooo, linecolour="yellow"

@@ -1,0 +1,16 @@
+
+/**
+@msc
+	hscale = "2";
+    
+		A [label="PA", textcolour="blue", arclinecolour="blue" ],C,B,D;
+    
+	A->B [ label="Obtain resource", linecolour="red", textcolour="red" ];
+	B->A [ label="Give resource", linecolour="red", textcolour="red" ];
+	A->B [ label="Obtain resource", linecolour="red", textcolour="red" ];
+	B->C [ label=" diibadaaba", linecolour="yellow" ];
+	D=>A [ linecoulour="green" ];
+	C->D;
+
+@endmsc
+*/
