@@ -3,12 +3,12 @@
 @msc
 	hscale = "2";
     
-		A [label="PA", textcolour="blue", arclinecolour="blue" ],C,B,D;
+		A [label="PROC A", textcolour="blue", arclinecolour="blue" ],C,B,D;
     
 	A->B [ label="Obtain resource", linecolour="red", textcolour="red" ];
 	B->A [ label="Give resource", linecolour="red", textcolour="red" ];
 	A->B [ label="Obtain resource", linecolour="red", textcolour="red" ];
-	B->C [ label=" diibadaaba", linecolour="yellow" ];
+	B->C [ label=" This is a message specific comment", linecolour="yellow" ];
 	D=>A [ linecoulour="green" ];
 	C->D;
 

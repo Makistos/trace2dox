@@ -1,17 +1,20 @@
+# This is an example configuration file for trace2dox.
 # General
+
+# The next three settings don't work yet
 
 hscale: "2"
 #width: "800"
 #arcgradient: "5"
 
 traceid: ::MSC::
-#namespace: MSG_
+namespace: MSG_
 #filters:
 #logic: AND
 
 # Entities
 
-A: label="PA", textcolour="blue", arclinecolour="blue"
+A: label="PROC A", textcolour="blue", arclinecolour="blue"
 
 # Messages
 A->B: label="Obtain resource", linecolour="red", textcolour="red"
