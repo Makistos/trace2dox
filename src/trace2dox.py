@@ -32,7 +32,7 @@ DEFAULT_INPUT_FILE = 'trace.log'
 """ Default output file name."""
 DEFAULT_OUTPUT_FILE = 'trace.msc'
 """ Default namespace."""
-NAMESPACE_STR = 'MAISA_'
+NAMESPACE_STR = 'MSG_'
 
 """ Different message types supported by mscgen. """
 MESSAGE_TYPES = '->|=>|=>>|>>|:>|<-|<=|<<=|<<|<:'
@@ -52,9 +52,10 @@ def usage():
     """ Prints usage help for this script."""
     print 'Usage:'
     print '\t-h, --help\tThis help text.'
-    print '\t-i, --input\tInput file to read from (default:' + DEFAULT_INPUT_FILE +').'
-    print '\t-o, --output\tOutput file to write to (default:' + DEFAULT_OUTPUT_FILE + ').'
-    print '\t-n, --namespace\tNamespace to be removed from the beginning of entity names.'
+    print '\t-c, --config\tConfiguration file (default: ' + DEFAULT_CONFIG_FILE + ').'
+    print '\t-i, --input\tInput file to read from (default: ' + DEFAULT_INPUT_FILE +').'
+    print '\t-o, --output\tOutput file to write to (default: ' + DEFAULT_OUTPUT_FILE + ').'
+    print '\t-n, --namespace\tNamespace to be removed from the beginning of entity names (default: ' + NAMESPACE_STR + ').'
     print '\t-f, --filter\tMessage filter, entities must be listed in a comma-separated list,' 
     print '\t-l, --logic\tLogic to use with the filter list (a=sender, b=receiver):'
     print '\t\t\tAND - a and b must be in the list (DEFAULT when filter is defined),'
